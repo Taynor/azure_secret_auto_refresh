@@ -32,13 +32,13 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/
 
 ## Instructions
 - Initiate Terraform by running the following command:
-terraform init
+"terraform init"
 
 - Validate the terraform configuration
-terraform validate
+"terraform validate"
 
-- Create a Terraform of the configuration to manage State
-terraform plan -out=tfplan
+- Create a Terraform of the configuration to manage State using the tfplan State file
+"terraform plan -out=tfplan"
 
-- Execute the Terraform configuration
-terraform apply tfplan
+- Execute the Terraform configuration by using the tfplan State file
+"terraform apply tfplan"
