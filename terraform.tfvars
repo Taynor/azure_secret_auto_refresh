@@ -1,9 +1,9 @@
-resource_group_name = "adf-rg"
+resource_group_name = "<resource_group_name>"
 
-resource_group_location = "uksouth"
+resource_group_location = "<resource_group_location>"
 
-azuread_application_name = "automated_sp"
+azuread_application_name = "<service_principal_name>"
 
-key_vault_name = "adfkeyvaultsandbox"
+key_vault_name = "<key_vault_name>"
 
-key_vault_secret_name = "automatedspsecret"
+key_vault_secret_name = "<key_vault_secret_name>"
